@@ -12,6 +12,7 @@ public class Main {
             arr[number%10]++;
             number/=10;
         }
+        
         if(isPalindrome(arr)){
             System.out.println("Максимально возможный палиндром из цифр данного числа: ");
             System.out.println(setPalindrome(arr));
